@@ -1,0 +1,93 @@
+.content{
+	display: grid;
+	grid-template-rows: 2fr 1fr;
+	border-radius: 1%;
+}
+
+.content #topBanner{
+	grid-row: 1;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#topBanner #leftContent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	grid-column: 1;
+}
+
+#topBanner #leftContent img{
+	width: 60%;
+	max-width: 600px;
+	border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+
+#topBanner #rightContent{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	grid-column: 2;
+}
+
+#topBanner h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+}
+
+#aboutMeParagraph{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.content #bottomBanner{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	grid-row: 2;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+}
+
+#bottomBanner h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+}
+
+#bottomBanner p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+#bottomBanner #leftContent{
+	grid-column: 1;
+}
+
+#bottomBanner #middleContent{
+	grid-column: 2;
+}
+
+#bottomBanner #rightContent{
+	grid-column: 3;
+}
+
+#bottomBanner a{
+	width: 200px;
+	border: 1px solid #565656; 
+	border-radius: 15px;
+	text-decoration: none;
+	color: #EA0011;
+	padding: 5px; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+#bottomBanner a:hover{
+	background-color: #EA0011;
+	color: #FFFFFF;
+	box-shadow: 1px 1px 1px #FFFFFF;
+}

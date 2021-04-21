@@ -1,0 +1,93 @@
+/*General Setup*/
+header{
+	width:99%;
+	display:table;
+	background-color: #565656;
+	font-family: 'Open Sans', sans-serif;
+	position: fixed;
+	margin-top: -8px;
+}
+
+body{
+	background-color: #565656;
+}
+
+#name{
+	float: left; 
+	font-size: 24px; 
+	color: #CAECF2; 
+	text-decoration: none;
+	font-size: 30px;
+ 	padding: 28px 20px;
+}
+
+#name:hover{
+	color: #EA0011;
+}
+
+nav{
+	width:auto; 
+	float:right;
+}
+
+nav a{
+	text-decoration: none;
+	color: #CAECF2; 
+	font-size: 18px; 
+	padding: 25px 20px; 
+	display: inline-block; 
+}
+
+nav a:hover{
+	background-color: #EA0011;
+	color: #FFFFFF;
+	box-shadow: 1px 1px 1px #FFFFFF;
+	border-radius: 5px;
+}
+
+nav ul{
+	display: table; 
+	float: right;
+	list-style-type: none;
+}
+
+nav li{
+	float: left;
+}
+
+.content{
+	margin: 85px auto;
+	margin-bottom: 15px;
+	width: 90%;
+	min-width: 960px;
+	background-color: #CAECF2;
+}
+
+footer{
+	width:99%;
+	background-color: #565656;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	margin-bottom: 85px;
+}
+
+footer #contactInfo{
+	display: flex;
+	flex-direction: column;
+	float: left;
+	color: #CAECF2;
+}
+
+footer #pageLinks{
+	width: 150px;
+	float: right;
+}
+
+footer #pageLinks a{
+	text-decoration: none;
+	color: #CAECF2;
+}
+
+footer #pageLinks a:hover{
+	color: #EA0011;
+}

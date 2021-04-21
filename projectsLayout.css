@@ -1,0 +1,105 @@
+.content{
+	display: grid;
+	grid-template-rows: 18em 1fr;
+	border-radius: 1%;
+}
+
+#topBanner{
+	grid-row: 1;
+	padding: 20px;
+}
+
+#topBanner h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+#bottomBanner{
+	grid-row: 2;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-bottom: 15px;
+	grid-gap: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+	align-items: start;
+}
+
+#bottomBanner h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+}
+
+#leftContent{
+	grid-column: 1;
+}
+
+table{
+	border-collapse: collapse;
+	border: 2px solid black;
+	align-self: center;
+	width: 100%;
+}
+
+td{
+	padding: 0.5em;
+	text-align: center;
+}
+
+th{
+	padding: 0.5em;
+	border: 2px solid black;
+}
+
+table a{
+	text-decoration: none;
+	color: #EA0011;
+}
+
+table a:hover{
+	text-decoration: underline;
+}
+
+table tr:nth-of-type(odd){
+	background-color: white;
+}
+
+#rightContent{
+	grid-column: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#rightContent form{
+	width: 60%;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 7em 1fr;
+	grid-gap: 1em;
+	align-self: center;
+}
+
+#submitButton{
+	width: 100px;
+	border: 1px solid #565656; 
+	border-radius: 15px;
+	text-decoration: none;
+	color: #EA0011;
+	padding: 5px; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+#submitButton:hover{
+	background-color: #EA0011;
+	color: #FFFFFF;
+	box-shadow: 1px 1px 1px #FFFFFF;
+}
+
+

@@ -1,0 +1,88 @@
+.content{
+	display: grid;
+	grid-template-rows: 0.5fr 1fr;
+	border-radius: 1%;
+}
+
+#topBanner{
+	grid-row: 1;
+	padding: 20px;
+
+}
+
+#topBanner h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+}
+
+#topBanner p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+#bottomBanner{
+	grid-row: 2;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+#bottomBanner h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+}
+
+#bottomBanner h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+#bottomBanner p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+#oneOne{
+	grid-column: 1;
+	grid-row: 1;
+}
+
+#oneTwo{
+	grid-column: 2;
+	grid-row: 1;
+}
+
+#oneThree{
+	grid-column: 3;
+	grid-row: 1;
+}
+
+#twoOne{
+	grid-column: 1;
+	grid-row: 2;
+}
+
+#twoTwo{
+	grid-column: 2;
+	grid-row: 2;
+}
+
+#twoThree{
+	grid-column: 3;
+	grid-row: 2;
+}
+
+#topBanner a{
+	text-decoration: none;
+	color: #EA0011;
+}
+
+#topBanner a:hover{
+	text-decoration: underline;
+}
+
